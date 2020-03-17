@@ -24,7 +24,7 @@ var getRandomVideoLink = function(callback) {
 	  //the whole response has been recieved, so we just print it out here
 	  response.on('end', function () {
 	  	var listJSON = JSON.parse(str);
-
+		console.log(listJson);
 	  	var randomIndex = randomIntFromInterval(0, listJSON.items.length);
 	  	var randomVideoId = listJSON.items[randomIndex].snippet.resourceId.videoId;
 
