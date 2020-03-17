@@ -11,7 +11,7 @@ let oauth = Youtube.authenticate({
 var getRandomVideoLink = function(callback) {
 	return https.get({
         host: 'www.googleapis.com',
-        path: '/youtube/v3/playlistItems?part=snippet&maxResults=50&id=PLhOYRw2LCXIa4Wcm3EZvO9vl3O8S1evEy&key=AIzaSyD51GfH_Eu36I1l5rGKv2refF4BfEj-n5o'
+        path: '/youtube/v3/playlistItems?part=snippet&maxResults=50&playlistid=PLhOYRw2LCXIa4Wcm3EZvO9vl3O8S1evEy&key=AIzaSyD51GfH_Eu36I1l5rGKv2refF4BfEj-n5o'
     }, function(response) {
 
     	var str = '';
