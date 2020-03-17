@@ -3,8 +3,8 @@ var Youtube = require("youtube-api");
 
 let oauth = Youtube.authenticate({
     type: "oauth",
-    client_id: '100172283741-qbg82ok4mka4g40napbq21cjgshki7s1.apps.googleusercontent.com',
-    client_secret: 'C5h-YwAGHpbFZwSQ82yIUuXA'
+    client_id: '918362942534-882rki71su70s91gog5jfu261maoilps.apps.googleusercontent.com',
+    client_secret: 'NC-YoYLW3dlqc-E4c3zkRKQZ'
 
 });
 
